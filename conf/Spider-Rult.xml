@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sites>
+	<site>
+		<title>笔趣阁</title>
+		<chapter>GBK</chapter>
+		<url>http://www.biquge.com.tw</url>
+		<chapter-list-selector>#list dd a</chapter-list-selector>
+		<!-- 标题 -->
+		<chapter-detail-title-selector>.bookname h1,0</chapter-detail-title-selector>
+		<!-- 内容 -->
+		<chapter-detail-content-selector>#content</chapter-detail-content-selector>
+		<!-- 上一张 -->
+		<chapter-detail-prev-selector>.bottem2  a,1</chapter-detail-prev-selector>
+		<!-- 下一张 -->
+		<chapter-detail-next-selector>.bottem2  a,3</chapter-detail-next-selector>
+	</site>
+	<site>
+		<title>顶点小说</title>
+		<chapter>GBK</chapter>
+		<url>https://www.x23us.com</url>
+		<chapter-list-selector>#at td a</chapter-list-selector>
+		<!-- 标题 -->
+		<chapter-detail-title-selector>#amain h1,0</chapter-detail-title-selector>
+		<!-- 内容 -->
+		<chapter-detail-content-selector>#contents</chapter-detail-content-selector>
+		<!-- 上一张 -->
+		<chapter-detail-prev-selector>#footlink a</chapter-detail-prev-selector>
+		<!-- 下一张 -->
+		<chapter-detail-next-selector>#footlink a,2</chapter-detail-next-selector>
+		
+	</site>
+	<site>
+		<title>笔下文学</title>
+		<chapter>UTF-8</chapter>
+		<url>https://www.bixia.org</url>
+		<chapter-list-selector>#list dd a</chapter-list-selector>
+		<!-- 标题 -->
+		<chapter-detail-title-selector>.bookname h1,0</chapter-detail-title-selector>
+		<!-- 内容 -->
+		<chapter-detail-content-selector>#content</chapter-detail-content-selector>
+		<!-- 上一张 -->
+		<chapter-detail-prev-selector>#pager_prev</chapter-detail-prev-selector>
+		<!-- 下一张 -->
+		<chapter-detail-next-selector>#pager_next</chapter-detail-next-selector>
+		
+	</site>
+	<site>
+		<title>看书中</title>
+		<chapter>GBK</chapter>
+		<url>http://www.kanshuzhong.com</url>
+		<chapter-list-selector>.bookcontent dd a</chapter-list-selector>
+		<!-- 标题 -->
+		<chapter-detail-title-selector>.rcontent h1</chapter-detail-title-selector>
+		<!-- 内容 -->
+		<chapter-detail-content-selector>.textcontent</chapter-detail-content-selector>
+		<!-- 上一张 -->
+		<chapter-detail-prev-selector>.readlink a,1</chapter-detail-prev-selector>
+		<!-- 下一张 -->
+		<chapter-detail-next-selector>.readlink a,3</chapter-detail-next-selector>
+		<!-- 网站章节列表 -->
+		<novel-selector>.book_list tr</novel-selector>
+		<novel-next-page-selector>#pagelink .next</novel-next-page-selector>
+	</site>
+</sites>
